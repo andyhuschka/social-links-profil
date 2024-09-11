@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   /* Colors */
 
@@ -10,7 +17,7 @@
 
 body {
   font-size: 14px;
-  font-family: inter;
+  font-family: "Inter";
   color: var(--clr-white);
   background-color: var(--clr-grey-900);
 }
