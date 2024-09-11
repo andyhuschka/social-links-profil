@@ -53,16 +53,26 @@ main {
   height: auto;
 }
 
+.profil-img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .main-container h1 {
   font-weight: 700;
+  margin-bottom: 0.75rem;
 }
 
 .main-container h2 {
   color: var(--clr-green);
+  font-size: 1.1rem;
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
 }
 
 .main-container p {
-  color: var(--clr-white);
+  color: lightgrey;
+  margin-bottom: 2rem;
 }
 
 .social {
