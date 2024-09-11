@@ -25,8 +25,7 @@ html {
   font-size: 14px;
 }
 
-@media only screen and {
-  min-width: 375px;
+@media only screen and (min-width: 375px) {
 }
 
 body {
@@ -52,6 +51,12 @@ main header {
   justify-content: center;
 }
 
+.main-container img {
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
+}
+
 .main-container h1 {
   font-weight: 700;
 }
@@ -62,15 +67,6 @@ main header {
 
 .main-container p {
   color: var(--clr-white);
-}
-
-.main-container img {
-  position: ;
-  border-radius: 50%;
-  block-size: 50%;
-}
-
-.social {
 }
 
 .social ul {
