@@ -28,6 +28,8 @@ body {
   font-family: "Inter";
   color: var(--clr-white);
   background-color: var(--clr-grey-900);
+  place-items: center;
+  height: 100vh;
   margin: 0;
 }
 
