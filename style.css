@@ -47,10 +47,6 @@ main {
   padding-top: 28px;
 }
 
-main header {
-  justify-content: center;
-}
-
 .main-container img {
   border-radius: 50%;
   width: 25%;
@@ -69,13 +65,18 @@ main header {
   color: var(--clr-white);
 }
 
+.social {
+  padding-left: 5rem;
+  padding-bottom: 30px;
+}
+
 .social ul {
-  display: inline-block;
-  justify-content: center;
+  display: grid;
   align-items: center;
   margin-top: 5px;
-  height: 35px;
+  height: 40px;
   width: 75%;
   background-color: var(--clr-grey-700);
   border-radius: 0.4rem;
+  padding: 0px;
 }
