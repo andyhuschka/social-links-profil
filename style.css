@@ -24,10 +24,6 @@
 html {
   font-size: 14px;
 }
-
-@media only screen and (min-width: 375px) {
-}
-
 body {
   font-family: "Inter";
   color: var(--clr-white);
@@ -80,13 +76,31 @@ main {
   padding-bottom: 30px;
 }
 
-.social ul {
+.social a {
   display: grid;
   align-items: center;
-  margin-top: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 0.75rem;
   height: 40px;
   width: 75%;
   background-color: var(--clr-grey-700);
   border-radius: 0.4rem;
   padding: 0px;
+}
+
+.social a:visited {
+  color: var(--clr-white);
+}
+
+.social a:hover {
+  color: var(--clr-grey-700);
+  background-color: var(--clr-green);
+}
+
+.social a:active {
+  color: var(--clr-white);
+}
+
+@media (min-width: 1440px) {
 }
